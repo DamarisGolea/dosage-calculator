@@ -39,10 +39,6 @@ public class PatientServiceTest {
     }
 
 
-    // test pentru cnp - folosesti cnp`ul creat
-    // test pentru delete -> citesti dupa cnp, folosesti id`ul ca sa stergi pacientul -> mai cauti o data dupa cnp -> verific sa nu vina nimic
-
-
     private PatientRequest createPatient(String firstName, String lastName, String cnp, int age, int weight) {
 
         PatientRequest patient = new PatientRequest();
@@ -54,10 +50,4 @@ public class PatientServiceTest {
 
         return patient;
     }
-
-//    @Test
-//    public void testGetByCnp() {
-//        List<PatientResponse> patient = patientService.getByCnp("1234557");
-//        assertThat(patient).i;
-//   }
 }
