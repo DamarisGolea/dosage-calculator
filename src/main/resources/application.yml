@@ -1,0 +1,10 @@
+server.port: 8086
+
+spring:
+  jpa:
+    hibernate.ddl-auto: update
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL8Dialect
+  datasource:
+    url: jdbc:mysql://localhost:3306/dosage_calculator?serverTimezone=UTC
+    username: dosage-calculator-admin
+    password: dosage-calculator-admin
